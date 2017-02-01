@@ -1,0 +1,36 @@
+.front-page-header {
+  
+  padding: 1em;
+  background-color: $brand-grey;
+  
+  .tab-content {
+  
+    background-color: white;
+    padding: 0.5em 1em;
+  
+  }
+  
+  .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    
+    background-color: white;
+    
+  }
+  
+  .nav-tabs > li > a {
+    
+    background-color: darken($brand-grey, 10%);
+    
+  }
+  
+  .panel-default > .panel-heading {
+    
+    background-color: darken($brand-grey, 10%);
+  }
+  
+  a.list-group-item, button.list-group-item {
+    
+    color: $brand-primary;
+    
+  }
+  
+}
