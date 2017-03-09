@@ -67,7 +67,7 @@
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: -10px center;
-    font-family: 'Overpass', sans-serif;
+    font-family: $font-family-sans-serif;
     font-weight: 300;
 }
 .navbar-default #staffnet-nav .navbar-nav li > a:active,
@@ -103,7 +103,7 @@
 .user-panel h4 a,
 .user-panel h4 a:visited {
     color: #ffffff;
-    font-family: 'Overpass', sans-serif;
+    font-family: $font-family-sans-serif;
     font-weight: 300;
 }
 .user-panel h4 a:active,
@@ -116,14 +116,14 @@
     font-size: 11px;
     margin-top: 0;
     color: #ffffff;
-    font-family: 'Overpass', sans-serif;
+    font-family: $font-family-sans-serif;
     font-weight: 300;
 }
 .user-panel p,
 .user-panel p a,
 .user-panel p a:visited {
     font-size: 12px;
-    font-family: 'Overpass', sans-serif;
+    font-family: $font-family-sans-serif;
     font-weight: 300;
     color: #46AFD2;
 }
@@ -176,7 +176,7 @@
     line-height: 50px;
     color: #ffffff;
     font-size: 12px;
-    font-family: 'Overpass', sans-serif;
+    font-family: $font-family-sans-serif;
     font-weight: 300;
 }
 .header-search form {

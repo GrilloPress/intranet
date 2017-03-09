@@ -6,13 +6,15 @@
 @import "typography";
 
 @import "navbar";
+@import "mega-menu";
+
 @import "front-page/header";
 @import "front-page/feed";
 @import "front-page/sitemap";
-
+@import "pages";
 @import "breadcrumbs";
 @import "panels";
 
-@import "pages";
+
 
 @import "media-queries";

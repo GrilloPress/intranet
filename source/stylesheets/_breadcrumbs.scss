@@ -6,13 +6,16 @@
   min-height: 50px;
   max-height: 50px;
   font-size: inherit;
+  margin-bottom: 2em;
+  padding-top: 2px;
   
 }
 
 .breadcrumbs a, .breadcrumbs a:visited {
   
-    margin: -10px 0;
-    width: auto;
-    color: $brand-primary;
+  margin: -10px 0;
+  width: auto;
+  color: $brand-primary;
+  padding-right: 0.5em;
   
 }

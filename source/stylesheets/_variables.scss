@@ -792,13 +792,13 @@ $badge-border-radius:         10px;
 $breadcrumb-padding-vertical:   8px;
 $breadcrumb-padding-horizontal: 15px;
 //** Breadcrumb background color
-$breadcrumb-bg:                 $body-bg;
+$breadcrumb-bg:                 transparent;
 //** Breadcrumb text color
-$breadcrumb-color:              #ccc;
+$breadcrumb-color:              $gray;
 //** Text color of current page in the breadcrumb
-$breadcrumb-active-color:       $gray-light;
+$breadcrumb-active-color:       $gray;
 //** Textual separator for between breadcrumb elements
-$breadcrumb-separator:          "/";
+$breadcrumb-separator:          ">";
 
 
 //== Carousel
