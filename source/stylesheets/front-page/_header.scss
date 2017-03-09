@@ -7,6 +7,7 @@
   
     background-color: white;
     padding: 0.5em 1em;
+    margin-bottom: 1em;
   
   }
   
@@ -18,13 +19,15 @@
   
   .nav-tabs > li > a {
     
-    background-color: darken($brand-grey, 10%);
+    background-color: $brand-grey-darker;
+    border-right: 2px solid $brand-grey;
     
   }
   
   .panel-default > .panel-heading {
     
-    background-color: darken($brand-grey, 10%);
+    background-color: $brand-grey-darker;
+    
   }
   
   a.list-group-item, button.list-group-item {

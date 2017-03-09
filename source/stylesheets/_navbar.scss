@@ -1,0 +1,200 @@
+/*  HEADER & NAVIGATION
+-------------------------------------------------- */
+.header-wrap {
+    background: #ffffff;
+}
+
+.top-bar {
+    height: 50px;
+    background: #394959;
+  border-bottom: 1px solid #212C36;
+}
+
+.top-bar .row {
+    background: url(http://staffnet.wpengine.com/wp-content/themes/staffnet_strategic-ic/assets/img/logo_nhs_logo.png) no-repeat 15px center;
+  background-repeat: no-repeat;
+}
+.top-bar a,
+.top-bar a:visited {
+    display: inline-block;
+    line-height: 50px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.top-bar a:active,
+.top-bar a:focus,
+.top-bar a:hover {
+    color: #00A5D5;
+    text-decoration: none;
+}
+.navbar > .container .navbar-brand {
+    width: 72px;
+    height: 23px;
+    margin: 10px 0;
+    padding: 0;
+    background: url(http://staffnet.wpengine.com/wp-content/themes/staffnet_strategic-ic/assets/img/logo-staffnet.png) no-repeat center center;
+  background-repeat: no-repeat;
+    background-size: 72px 23px;
+}
+.navbar-toggle {
+    border: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+.navbar-default .navbar-collapse {
+    border: none;
+    box-shadow: none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+.navbar {
+    border: none;
+    background: #394959;
+    margin-bottom:0;
+    border-radius:0;
+    border-top: 1px solid #53687D;
+}
+.navbar.affix {
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+.navbar-default #staffnet-nav .navbar-nav li > a,
+.navbar-default #staffnet-nav .navbar-nav li > a:visited {
+    color: #ffffff;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: -10px center;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+}
+.navbar-default #staffnet-nav .navbar-nav li > a:active,
+.navbar-default #staffnet-nav .navbar-nav li > a:focus,
+.navbar-default #staffnet-nav .navbar-nav li > a:hover {
+    color: #ffffff;
+    background-color: #53687D;
+}
+.navbar-nav .open .dropdown-menu > li > a {
+    padding: 10px 10px 10px 90px;
+}
+#staffnet-nav .dropdown-toggle .caret {
+    border-top: 4px solid #ffffff;
+}
+#staffnet-nav .open .dropdown-toggle .caret {
+    border-top: none;
+    border-bottom: 4px solid #ffffff;
+}
+.user-panel {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.user-panel .constrain-text {
+    width: 80%;
+}
+.user-panel h4 {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0;
+    padding-bottom: 3px;
+}
+.user-panel h4,
+.user-panel h4 a,
+.user-panel h4 a:visited {
+    color: #ffffff;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+}
+.user-panel h4 a:active,
+.user-panel h4 a:focus,
+.user-panel h4 a:hover {
+    color: #00A5D5;
+    text-decoration: none;
+}
+.user-panel h6 {
+    font-size: 11px;
+    margin-top: 0;
+    color: #ffffff;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+}
+.user-panel p,
+.user-panel p a,
+.user-panel p a:visited {
+    font-size: 12px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+    color: #46AFD2;
+}
+.user-panel p a:active,
+.user-panel p a:focus,
+.user-panel p a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.user-panel img.avatar {
+    width: 30px;
+    height: 30px;
+    background: #ffffff;
+    border-radius: 2px;
+    border: 1px solid #000000;
+}
+.top-bar {
+    color: #ffffff;
+}
+.top-bar .badge {
+    margin-left: -10px;
+    margin-top: -15px;
+    font-size: 10px;
+}
+.top-bar img.avatar {
+    border-radius: 2px;
+    border: none;
+    background: #ffffff;
+}
+.navbar.affix + .header-search {
+    margin-top: 50px;
+}
+.header-search {
+    background: $brand-primary;
+    min-height: 50px;
+}
+.contacts .header-search #searchform_all,
+.contacts .advanced-search,
+.resources .header-search #searchform_all,
+.resources .advanced-search,
+.search .header-search #searchform_all,
+.search .header-search .advanced-search,
+.page-template-page-tempate_advanced-search .header-search #searchform_all,
+.page-template-page-tempate_advanced-search .header-search .advanced-search {
+    display: none; /* REMOVE THE GLOBAL SEARCHBAR ON PAGES WITH THEIR OWN SEARCHFORM */
+}
+.header-search p,
+.header-search p a,
+.header-search p a:visited {
+    line-height: 50px;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+}
+.header-search form {
+    margin: 5px 0;
+}
+.header-search input[type="text"] {
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    background: transparent url(http://staffnet.wpengine.com/wp-content/themes/staffnet_strategic-ic/assets/img/icon-search-highlight.png) no-repeat right center;
+}
+.header-search input[type="text"]:active,
+.header-search input[type="text"]:focus {
+    border-radius: 3px;
+    border: none;
+    background: #ffffff url(http://staffnet.wpengine.com/wp-content/themes/staffnet_strategic-ic/assets/img/icon-search.png) no-repeat right center;
+}

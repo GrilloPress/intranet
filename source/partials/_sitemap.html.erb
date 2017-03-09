@@ -1,0 +1,45 @@
+<section class="a-z-sitemap">
+  <div class="container">
+    <div class="col-md-12">
+      <h2>
+        <a class="sitemap-header" role="button" data-toggle="collapse" href="#a-z-sitemap" aria-expanded="false" aria-controls="a-z-sitemap">
+          Quicklinks
+        </a>
+      </h2>
+      
+      <div class="a-z-panel collapse" id="a-z-sitemap">
+        <div class="row">
+          
+          <% data.quicklinks.quicklink.each_with_index do |link, i| %>
+            
+              <% if i == 0 %>
+      
+              <div class="col-md-3">
+                <ul>
+              <% end %>
+                  
+              <% if i != 0 && i % 10 == 0 %>
+                  </ul>
+              </div>
+      
+              <div class="col-md-3">
+                <ul>
+              <% end %>
+          
+              <li id="<%= link['title'] %>">
+                <%= link_to link['title'], "#" %> 
+              </li>
+              
+          <% end %>
+                  </ul>
+              </div>
+          
+          <div class="col-md-12">
+            <a href="#" class="btn btn-block btn-wire">You can find the full site index here</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

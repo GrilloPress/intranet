@@ -1,0 +1,18 @@
+.breadcrumbs {
+  
+  background-color: $brand-grey;
+  color: inherit;
+  height: 50px;
+  min-height: 50px;
+  max-height: 50px;
+  font-size: inherit;
+  
+}
+
+.breadcrumbs a, .breadcrumbs a:visited {
+  
+    margin: -10px 0;
+    width: auto;
+    color: $brand-primary;
+  
+}

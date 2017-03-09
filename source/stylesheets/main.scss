@@ -4,4 +4,13 @@
 @import "legacy";
 // New or migrated bits
 @import "typography";
+
+@import "navbar";
 @import "front-page/header";
+@import "front-page/feed";
+@import "front-page/sitemap";
+
+@import "breadcrumbs";
+@import "panels";
+
+@import "media-queries";

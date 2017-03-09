@@ -7,19 +7,24 @@
 $gray-base:              #000;
 $gray-darker:            lighten($gray-base, 13.5%); // #222
 $gray-dark:              #231f20;
-$gray:                   darken(#666, 10%);
+$gray:                   #0b0c0c;
 $gray-light:             #bbb;
 $gray-lighter:           lighten($gray-base, 93.5%); // #eee
 
-$brand-primary:        #005EB8;
+$brand-primary:        #277691;
 $brand-primary-bright: #0072CE;
 $brand-primary-light:  #41B6E6;
-$brand-success:        #277691;
+
+$brand-success:        #005EB8;
 $brand-info:           #006747;
 $brand-warning:        #ED8B00;
 $brand-danger:         #DA291C;
-$brand-gray:           #E8EDEE;
+
+$brand-gray:           #EBEBEB;
+$brand-gray-darker:    darken($brand-gray, 10%);
 $brand-grey:           $brand-gray;
+$brand-grey-darker:    $brand-gray-darker;
+
 $brand-vibrant:        #b61e53;
 
 // NHS Blue: #006db8
@@ -50,7 +55,7 @@ $link-hover-decoration: underline;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  'Overpass', Helvetica, Arial, sans-serif;
+$font-family-sans-serif:  'Assistant', Helvetica, Arial, sans-serif;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
@@ -60,12 +65,12 @@ $font-size-base:          17px;
 $font-size-large:         ceil(($font-size-base * 1.25)); // ~18px
 $font-size-small:         ceil(($font-size-base * 0.85)); // ~12px
 
-$font-size-h1:            30px;
-$font-size-h2:            28px;
-$font-size-h3:            26px;
-$font-size-h4:            24px;
-$font-size-h5:            20px;
-$font-size-h6:            14px;
+$font-size-h1:            40px;
+$font-size-h2:            36px;
+$font-size-h3:            30px;
+$font-size-h4:            28px;
+$font-size-h5:            24px;
+$font-size-h6:            20px;
 
 //** Unit-less `line-height` for use in components like buttons.
 $line-height-base:        1.846; // 20/14
@@ -76,7 +81,7 @@ $line-height-computed:    floor(($font-size-base * $line-height-base)); // ~20px
 $headings-font-family:    inherit;
 $headings-font-weight:    700;
 $headings-line-height:    1.1;
-$headings-color:          #444;
+$headings-color:          $gray;
 
 
 //== Iconography
@@ -711,7 +716,7 @@ $panel-footer-bg:             #f5f5f5;
 
 $panel-default-text:          $gray-dark;
 $panel-default-border:        #ddd;
-$panel-default-heading-bg:    darken(#f5f5f5, 20%);
+$panel-default-heading-bg:    $brand-gray-darker;
 
 $panel-primary-text:          #fff;
 $panel-primary-border:        $brand-primary;
