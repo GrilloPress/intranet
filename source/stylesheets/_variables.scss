@@ -12,13 +12,14 @@ $gray-light:             #bbb;
 $gray-lighter:           lighten($gray-base, 93.5%); // #eee
 
 $brand-primary:        #277691;
-$brand-primary-bright: #0072CE;
-$brand-primary-light:  #41B6E6;
+$brand-primary-bright: #3CB4DD;
+$brand-primary-light:  #7EC5DD;
+$brand-primary-dark:   #164251;
 
 $brand-success:        #005EB8;
-$brand-info:           #006747;
-$brand-warning:        #ED8B00;
-$brand-danger:         #DA291C;
+$brand-info:           #007e5a;
+$brand-warning:        #6d1d61;
+$brand-danger:         #b61e53;
 
 $brand-gray:           #EBEBEB;
 $brand-gray-darker:    darken($brand-gray, 10%);
@@ -856,7 +857,7 @@ $abbr-border-color:           $gray-light;
 //** Headings small color
 $headings-small-color:        $gray-light;
 //** Blockquote small color
-$blockquote-small-color:      $gray-light;
+$blockquote-small-color:      $gray-dark;
 //** Blockquote font size
 $blockquote-font-size:        ($font-size-base * 1.25);
 //** Blockquote border color

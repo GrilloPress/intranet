@@ -2,6 +2,10 @@
 @import "variables";
 @import "bootstrap";
 @import "legacy";
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
 // New or migrated bits
 @import "typography";
 
@@ -15,6 +19,6 @@
 @import "breadcrumbs";
 @import "panels";
 
-
+@import "blockquotes";
 
 @import "media-queries";

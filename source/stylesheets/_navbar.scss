@@ -5,19 +5,15 @@
 }
 
 .top-bar {
-    height: 50px;
-    background: #394959;
+  
+  background: #394959;
   border-bottom: 1px solid #212C36;
+  
 }
 
-.top-bar .row {
-    background: url(http://staffnet.wpengine.com/wp-content/themes/staffnet_strategic-ic/assets/img/logo_nhs_logo.png) no-repeat 15px center;
-  background-repeat: no-repeat;
-}
 .top-bar a,
 .top-bar a:visited {
     display: inline-block;
-    line-height: 50px;
     font-size: 12px;
     font-weight: 300;
     color: #ffffff;
@@ -40,7 +36,7 @@
 .navbar-toggle {
     border: none;
     padding: 0;
-    margin: 20px 0 0;
+    margin: 15px 12px 0 0;
 }
 .navbar-default .navbar-collapse {
     border: none;
@@ -66,7 +62,7 @@
     color: #ffffff;
     background-color: transparent;
     background-repeat: no-repeat;
-    background-position: -10px center;
+    background-position: 5px center;
     font-family: $font-family-sans-serif;
     font-weight: 300;
 }
@@ -114,7 +110,7 @@
 }
 .user-panel h6 {
     font-size: 11px;
-    margin-top: 0;
+    margin: 0;
     color: #ffffff;
     font-family: $font-family-sans-serif;
     font-weight: 300;

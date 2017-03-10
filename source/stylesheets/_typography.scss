@@ -1,2 +1,24 @@
 /*  TYPOGRAPHY
 -------------------------------------------------- */
+
+.branded-header {
+  
+  background-color: $brand-primary;
+  padding: 8px 5px;
+  color: white;
+  
+}
+
+.branded-header-secondary {
+  
+  @extend .branded-header;
+  background-color: $brand-primary-dark;
+  
+}
+
+.branded-header-vibrant {
+  
+  @extend .branded-header;
+  background-color: $brand-vibrant;
+  
+}

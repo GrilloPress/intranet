@@ -390,10 +390,17 @@ a.badge:hover {
     background: #0077C3;
 }
 
+/*  HOME */
+.navbar-default #staffnet-nav .navbar-nav li.menu-home > a {
+    padding-left: 50px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAA4VBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+sqgLzAAAASnRSTlMAAQIDBAUGCgsNDhESEx4hIyotLjAxMjg5RUZMTlZXWVxdXmRncHd7foCDiZSXnZ6iqquvsLS5vsDFyMrO0dPa3N7g7e/x8/X3+VA+mOEAAADgSURBVChTzc/ZTsJQFEbhv6ccEKsVxzorIOKAs1JRsSCCZb3/A3kBJqWtiTdG193Ol+zsLf2XnNrjsStpOQzDi4zaB6BblvYA0rrYB2BYyeWNMXT8DrB7kOU60DLGtIBRms0lcKjNOFCVSQmde4F4RQ2godU4xUvvEHmFGwBuC15vhneAO+tF063Rgr0H9ifonAFNZy3mq/G60wTOHUnFNrClOsmOtA20i9IbDHz3itmuXX8AfanGU6ncJd3rfOmZqqTAaJRR+JAJpqfnaPLvH7K11trvOTv8OZ/m8Il+u0/uFGzRbMEA/AAAAABJRU5ErkJggg==);
+}
+
+
 /*  DEPARTMENTS */
 .navbar-default #staffnet-nav .navbar-nav li.menu-departments > a {
     padding-left: 50px;
-    background-image: url(http://staffnet.wpengine.com/wp-content/themes/staffnet_strategic-ic/assets/img/icon-departments.png);
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAAjVBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8DizOFAAAALnRSTlMAAQIDBAUICRAUFhgZHC4wMTU3ODlVVltiaXF3goOFiYuqys/T19re4Ojp7/P588aQqgAAAJVJREFUKJHVkMcOwjAQBQenUENvpoXeef//eRxIpCiKfUJIzGm9swe/B0WSyXSMm6ekRmkXdPs5kjTL5l52t5CDEQAbl9bAr5V49T4E1k4bAQxf1XYXlXMbY4ynFklqflfPr/cMSXrkj9sSgJUzN0DqLg0wF6+mfvZq4qPDnj4/r7U6VbTDckRrrY1/Wupf6K10CIqLN6VqRIS0YNhqAAAAAElFTkSuQmCC);
 }
 .navbar-default #staffnet-nav .navbar-nav li.menu-departments.active > a,
 .post-type-archive-departments .colour-code,
@@ -406,7 +413,7 @@ a.badge:hover {
 /*  DIRECTORY */
 .navbar-default #staffnet-nav .navbar-nav li.menu-directory > a {
     padding-left: 50px;
-    background-image: url(http://staffnet.wpengine.com/wp-content/themes/staffnet_strategic-ic/assets/img/icon-contacts.png);
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAAllBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AJcWoAAAAMXRSTlMAAQIDBAUGBwoMDhEUGRwfJygsMj9CRVFXWV5sc4Keq62wtL7HztfZ3uDm6fHz9/n76DfPPAAAANNJREFUGBmFwQdygzAABMAD4w5O4t57N0i+/3/OkgBTRprs4l/edCevPhy8PZUlHBbUZBtWrTeNDaxmzISwOTJzgk3C3AgWMXMRLA5MiV/YzGk8Q1j1qYkuHM5U7nCZUBvCoSGpPHw4rKit4dBMqA3gMKb26sBhS+0SwC64Ubt0kIlGKOvF1F4DGH/kKURJJGisfQChoLJpo/AjaDyG6D5pyKWPryhm6i6Yu6LQu7FOoiTYsmaHinHCiimqmivJwt5DXWNyZuq98GDTnx/i5DhrQfkA9nM0ivHdhXQAAAAASUVORK5CYII=);
 }
 .navbar-default #staffnet-nav .navbar-nav li.menu-directory.active > a,
 .single-staff_contact .navbar-default #staffnet-nav .navbar-nav li.menu-directory > a {
@@ -426,7 +433,7 @@ a.badge:hover {
 /*  RESOURCES */
 .navbar-default #staffnet-nav .navbar-nav li.menu-resources > a {
     padding-left: 50px;
-    background-image: url(http://staffnet.wpengine.com/wp-content/themes/staffnet_strategic-ic/assets/img/icon-resources.png);
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAAaVBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8G612AAAAInRSTlMAAQIGBwgQERofISQ/S09QVW13eH6Fi4ymwNzo6evt8fX9akoR4QAAAIdJREFUKFPt0MkWgjAMheHb4ozgPKBU4b7/Q+oRNaEEdu78t19OelIAyztbXbcjqCJ9Vk4Uk4mXTlwXLSe9Gj5w4c8M4h2GOzJM+xnYiFuMFcN4gJFxZ/FezrN4dvu6xUBzf9LH76GInWRwqf487fJF8dxYHvV/+5dc0a5qOK9NrfPPImf1kgcGdCb3JN99OAAAAABJRU5ErkJggg==);
 }
 .navbar-default #staffnet-nav .navbar-nav li.menu-resources.active > a,
 .single-resource .navbar-default #staffnet-nav .navbar-nav li.menu-resources > a {
@@ -455,7 +462,7 @@ a.badge:hover {
 /*  NEWS */
 .navbar-default #staffnet-nav .navbar-nav li.menu-news > a {
     padding-left: 50px;
-    background-image: url(http://staffnet.wpengine.com/wp-content/themes/staffnet_strategic-ic/assets/img/icon-news.png);
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAAUVBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////8IN+deAAAAGnRSTlMAAQQFERchLjpMUWJkhqKmt77H197g4ujr7RWmplsAAAB1SURBVChTzZDZDoAgDASLeN/1QO3/f6gGxURTBJ90XrbJhC0A8DGtjUprsoFwBIuH7qTcIkQDxGbQeo/o3AeJGS46131It/K32lHOX823nNePD3N8C4v3acduW/k4CEkNawOqoSC10IwcE6UgSkUW+owt/QkrD4ododUKtM8AAAAASUVORK5CYII=);
 }
 .navbar-default #staffnet-nav .navbar-nav li.menu-news.active > a,
 .single-news .navbar-default #staffnet-nav .navbar-nav li.menu-news > a {
@@ -2588,7 +2595,7 @@ h3.related-news-categories {
 -------------------------------------------------- */
 footer,
 .footer-push {
-    height: 920px;
+
     clear: both;
 }
 .footer-tier-1 {
