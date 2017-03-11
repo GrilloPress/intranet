@@ -99,6 +99,22 @@
         padding: 60px 0 0 0;
         background-position: center 25px;
     }
+  .navbar-default #staffnet-nav .navbar-nav > li.menu-groups > a {
+        padding: 60px 0 0 0;
+        background-position: center 25px;
+    }
+  .navbar-default #staffnet-nav .navbar-nav > li.menu-systems > a {
+        padding: 60px 0 0 0;
+        background-position: center 25px;
+    }
+  .navbar-default #staffnet-nav .navbar-nav > li.menu-forums > a {
+        padding: 60px 0 0 0;
+        background-position: center 25px;
+    }
+  .navbar-default #staffnet-nav .navbar-nav > li.menu-learning-development > a {
+        padding: 60px 0 0 0;
+        background-position: center 25px;
+    }
     .navbar-default #staffnet-nav .navbar-nav {
         border-left: 1px solid #53687D;
     }
@@ -106,9 +122,7 @@
         border-left: 1px solid #212C36;
         border-right: 1px solid #53687D;
     }
-    .navbar-default #staffnet-nav .navbar-nav li.menu-learning-development > a {
-        background: url(http://staffnet.wpengine.com/wp-content/themes/staffnet_strategic-ic/assets/img/icon-learning-development.png) no-repeat right center;
-    }
+    
     .navbar-default #staffnet-nav .navbar-nav li.menu-performance > a {
         background: url(http://staffnet.wpengine.com/wp-content/themes/staffnet_strategic-ic/assets/img/icon-performance.png) no-repeat right center;
     }

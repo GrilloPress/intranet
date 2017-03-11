@@ -396,6 +396,25 @@ a.badge:hover {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAA4VBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+sqgLzAAAASnRSTlMAAQIDBAUGCgsNDhESEx4hIyotLjAxMjg5RUZMTlZXWVxdXmRncHd7foCDiZSXnZ6iqquvsLS5vsDFyMrO0dPa3N7g7e/x8/X3+VA+mOEAAADgSURBVChTzc/ZTsJQFEbhv6ccEKsVxzorIOKAs1JRsSCCZb3/A3kBJqWtiTdG193Ol+zsLf2XnNrjsStpOQzDi4zaB6BblvYA0rrYB2BYyeWNMXT8DrB7kOU60DLGtIBRms0lcKjNOFCVSQmde4F4RQ2godU4xUvvEHmFGwBuC15vhneAO+tF063Rgr0H9ifonAFNZy3mq/G60wTOHUnFNrClOsmOtA20i9IbDHz3itmuXX8AfanGU6ncJd3rfOmZqqTAaJRR+JAJpqfnaPLvH7K11trvOTv8OZ/m8Il+u0/uFGzRbMEA/AAAAABJRU5ErkJggg==);
 }
 
+/*  GROUPs */
+.navbar-default #staffnet-nav .navbar-nav li.menu-groups > a {
+    padding-left: 50px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAA2FBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8lb+eLAAAAR3RSTlMAAQIDBAYICQsMDREYICQlMDEyMzU7PElKUlhjZGt0dXl7g4mLjo+Sm52goqOmqq2vt7y+wMfO0dPV197g5Obo6fHz9ff5+44euz8AAAEoSURBVChTjdHZUsIwGAXgQ0MBBRSKu4K0oGhZVGRRtrCI5/3fyIumSTPU0XP153ydJJMCf8ZtylXT/a1xFyS5SLjV+CRJNg1bjYwWK8NWoxYSqIZShpVkk9hKDKKh71ibq4vklZL9vHVZ15fSdz3qVKIGAMSwVQQAdA2HAIBieyhwRXIaBGOsDUuMg2BK8hLPqrJZDU/4VFOuZzjMqeEDOzWd1wxXL9SwwTb+0HmJdeDEW27wGDVlB0L5QMApR4/wANGYk7eZ68nsBLXeet31cDqb3Ig7ct4Q0cNkhiTZKQFAqUOS7xmY1NVZu9EovmrdaPabB9lnNZ8dKulp9tP4XvNbGr9qlmm80LxP4y/NiZ9lIjW307il+XjLg2yPNKMQLG1cBgX8Iz+KfpW7wLZhSgAAAABJRU5ErkJggg==);
+}
+
+/*  FORUMS */
+.navbar-default #staffnet-nav .navbar-nav li.menu-forums > a {
+    padding-left: 50px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAA+VBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9BnGuhAAAAUnRSTlMAAQIDBAUGCAoLDg8REhMUGSMlKi8xNTg7PD0+QUNFS1FWWVtiZGlrbG1veXt8f4KMkZSXoKKjqq2vsrW5usHFx8rM19nc3uDi5u3x8/X3+fv9ftznYQAAAQBJREFUGBm1wXs/wlAABuD3aJspJUVsUahcYu7KJaaQWE17v/+H0dkvMe30F8+DvyLS+WK5XMynBaZodjPgWNC0Nfxk1IeMGNYNTNh9TvEsjDmMdYjQMRWOMGJRaQ1I9KnkzWGTM2zgipKfE0mXPNO0c9JNipxP6RI9ShUAWdIADDILoELpFQNK6wAWSAEI0gRgUfLwSKklgCq5AqySVUC0KLnYZ6hTa5AMHCcg2ah1GNpDhjMsAadUugCQeKZCT8eI2WWs9xRCxi1jtE18ueFvHzsCE21GvWzr+KYzdHfdHfi9+5NSBhFblHYRL+WTfFpGvMU38qEgoFA6KMzjX3wC6jqX+SeKo5kAAAAASUVORK5CYII=);
+}
+
+/*  SYSTEMS */
+.navbar-default #staffnet-nav .navbar-nav li.menu-systems > a {
+    padding-left: 50px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeBAMAAADJHrORAAAALVBMVEUAAAD///////////////////////////////////////////////////////+hSKubAAAADnRSTlMAAQIEHkCLnbXr7fP1+WcZGccAAABPSURBVBjTY2CgOjDb9w4CXieD+XnvYOAZmH9OAKqQ6TWYegfX+W5Q8uHuZXyN1T9m56DcN8lYQuMdKmBYB6aeh9aB6ZcMHveQZN+2UDsyAOEEYovldHz+AAAAAElFTkSuQmCC);
+}
+
+
 
 /*  DEPARTMENTS */
 .navbar-default #staffnet-nav .navbar-nav li.menu-departments > a {
@@ -478,9 +497,8 @@ a.badge:hover {
 
 /*  LEARNING & DEVELOPMENT */
 .navbar-default #staffnet-nav .navbar-nav li.menu-learning-development > a {
-    padding-left: 90px;
-    background-image: url(http://staffnet.wpengine.com/wp-content/themes/staffnet_strategic-ic/assets/img/icon-learning-development.png);
-    background-position: 40px center;
+    padding-left: 50px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAABF1BMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////jvJXZAAAAXHRSTlMAAQIDBAUHCAsMDQ8QEhQVGBkbHB0eISMnKCorLS80Njg7PD1CREdKTFRVV1hZXF9ibG1vdHd5fIKDhoyOmpueo6WosrW5ury+wMHIzs/T19zg4uTr7/Hz9/n7/aSWqmIAAADkSURBVBgZ1cGHWoJQAAbQ/4IBWaFWaMvKhjZt2NCW2aallqbS//7PkVlx4bP7AJ6DARHfrVaWTPxHpA4b7LlfiyIskj5rM+A1H8Mfc7nCfu8FRwDIulRpFUeQPG5S4WnDQNd4mf2uVy38unuZ2H6m5J0vDMEX5yyA4dwtv7VKMxqCVqhbJ4sWYGQuCo6ASKzvQzptixjJ+lHaBOzcpUe68E2ROw5/fHjsqcGXIremGdaB5FIbY9gNpAZNTD5Q+jzQ4dPIBIDRbOnxrdOsXu3NRRAQJeehliQ3oZYhi1DTbdvA4PkCdY9ccbanVQoAAAAASUVORK5CYII=);
 }
 .post-type-archive-learning .colour-code,
 .single-learning .colour-code,
