@@ -19,7 +19,7 @@ $brand-primary-dark:   #164251;
 $brand-success:        #005EB8;
 $brand-info:           #007e5a;
 $brand-warning:        #6d1d61;
-$brand-danger:         #b61e53;
+$brand-danger:         #c50000;
 
 $brand-gray:           #EBEBEB;
 $brand-gray-darker:    darken($brand-gray, 10%);
@@ -197,11 +197,11 @@ $input-bg-disabled:              transparent;
 //** Text color for `<input>`s
 $input-color:                    $gray;
 //** `<input>` border color
-$input-border:                   transparent;
+$input-border:                   $gray;
 
 // TODO: Rename `$input-border-radius` to `$input-border-radius-base` in v4
 //** Default `.form-control` border radius
-$input-border-radius:            $border-radius-base;
+$input-border-radius:            0;
 //** Large `.form-control` border radius
 $input-border-radius-large:      $border-radius-large;
 //** Small `.form-control` border radius

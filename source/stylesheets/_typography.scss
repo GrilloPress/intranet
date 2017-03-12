@@ -1,6 +1,20 @@
 /*  TYPOGRAPHY
 -------------------------------------------------- */
 
+// Smooth fonts on Mac
+
+body {
+  
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  
+}
+
+
+// Branded headers
+//
+// Coloured backgrounds with white font
+
 .branded-header {
   
   background-color: $brand-primary;
@@ -23,9 +37,12 @@
   
 }
 
-body {
+// Extra large header for resource and category-like pages
+//
+// 
+
+.page-header-large h1 {
   
-  -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  font-size: $font-size-h1 + 20;
   
 }
