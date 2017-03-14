@@ -1,0 +1,19 @@
+.footer-sitewide {
+  
+  background-color: $brand-grey-darker;
+  padding: 1em 0;
+  
+  a {
+    
+    color: $gray;
+    text-decoration: underline;
+    
+    &:hover { 
+    
+      color: darken($gray, 5%);
+      text-decoration: underline;
+      
+    }
+  }
+  
+}
