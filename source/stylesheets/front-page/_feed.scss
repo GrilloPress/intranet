@@ -1,0 +1,60 @@
+.feed-homepage {
+  
+  margin-top: 1em;
+  
+  .list-group-item {
+    
+    background-color: #fff;
+    
+    
+    h3 {
+      
+      font-size: 20px;
+      margin: 10px 0 5px 0;
+      
+    }
+    
+    .post-date {
+      
+      float: right;
+      margin-top: 10px;
+      
+    }
+    
+    img {
+      
+      width: 100%;
+      height: auto;
+      
+    }
+  
+  }
+  
+}
+
+.category-label {
+  
+  position: absolute;
+  top: 2em;
+  padding-left: 12px;
+  padding-right: 24px;
+  font-weight: 700;
+  background-color: $brand-primary;
+  color: white;
+  font-size: 1em;
+  
+}
+
+.category-label-urgent {
+    
+  @extend .category-label;
+  background-color: $brand-danger;
+  
+}
+  
+.category-label-event {
+  
+  @extend .category-label;
+  background-color: $brand-info;
+  
+}

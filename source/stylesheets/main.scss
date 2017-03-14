@@ -8,9 +8,10 @@
 
 // New or migrated bits
 @import "typography";
-
+@import "forms";
 @import "navbar";
 @import "mega-menu";
+@import "buttons";
 
 @import "front-page/header";
 @import "front-page/feed";
@@ -21,6 +22,6 @@
 
 @import "blockquotes";
 
-@import "forms";
+@import "search";
 
 @import "media-queries";

@@ -38,27 +38,9 @@ textarea:hover,
 input:hover {
     border-color: #009933;
 }
-label,
-input,
-button,
-select,
-textarea {
-    font-size: 14px;
-    position: relative;
-    color:#333
-}
-label,input,button,select,textarea {
-    font-size:15px;
-    color:#333
-}
 select {
     background:#FFF url(http://staffnet.wpengine.com/wp-content/themes/staffnet_strategic-ic/assets/img/arrow_down-dark.png) no-repeat right center;
     min-width: 150px;
-}
-label {
-    font-weight:400;
-    font-size: 13px;
-    color: #333;
 }
 .radio,
 .checkbox {

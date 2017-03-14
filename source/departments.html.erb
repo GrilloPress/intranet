@@ -31,6 +31,16 @@ title: Welcome to your new intranet | nww.sth.nhs.uk
             </div>
           </div>
         </div>
+        
+        <div class="col-md-3 col-md-offset-1">
+          <form class="form-inline pull-right">
+            <label for="sortBy">Sort by</label>
+            <select name="careGroup" class="form-control">
+              <option>ASC (A-Z)</option>
+              <option>DESC (Z-A)</option>
+            </select>
+          </form> 
+        </div>
       </div>
     </div>
 
@@ -48,32 +58,67 @@ title: Welcome to your new intranet | nww.sth.nhs.uk
                 <option>LEGION</option>
               </select>
             </form>   
+        
+        <form>
+          <label for="directorate">Directorate</label>
+              <select name="directorate" class="form-control">
+                <option disabled selected value> -- select an option -- </option>
+                <option>Emergency Care</option>
+                <option>Gastro</option>
+                <option>Medicine</option>
+                <option>Pharmacy Services</option>
+                <option>Operating Services</option>
+                <option>Etc.</option>
+              </select>
+            </form> 
 
       </div>
     </div>
     
     <div class="col-md-9">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-12">
           <div class="page-wrapper">
             <div class="page-content">
+              <div class="search-panel">
+                <span class="label label-info">
+                  67 results
+                </span>
+              </div>
               
+              <div class="search-container">
+                
+                <ol class="search-results">
+                  <li class="search-result">
+                    <h2><a href="#">Department Title</a></h2>
+                    
+                    <div class="dropdown">
+                      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Dropdown
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </div>
+                    
+                    <small><a href="#">Care group / Corporate Service</a></small>
+                    
+                  </li>
+                </ol>
+
+              </div>
               
               
             
             </div>
           </div>
         </div>
-        
-        <div class="col-md-3 col-md-offset-1">
-          <aside role="complementary" class="page-advert-sidebar">
-            
-            Did you mean?
-            ...
-            
-            
-          </aside>
-        </div>
+
       </div> 
     </div>
        
