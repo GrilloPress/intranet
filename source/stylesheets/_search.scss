@@ -236,18 +236,11 @@ h3.search-header {
 .search-page button .fa-search {
     text-shadow: 2px 2px 3px #666666;
 }
-.search-page button,.search-results button,button#searchsubmit {
-    min-width: 0;
-    padding: 12px 15px;
-}
 html.lt-ie9 .department-refine-search .btn#searchsubmit {
     min-height: auto;
     max-height: auto;
     height: auto;
     line-height: 20px;
-}
-.search-results button,button#searchsubmit {
-    padding: 12px 15px;
 }
 #resourcesearch .department-refine-search #searchsubmit,.search-no-results #advancedsearch .department-refine-search #searchsubmit,.search-results #advancedsearch .department-refine-search #searchsubmit {
     width: 100%;
@@ -536,7 +529,7 @@ ol.search-results {
   list-style: none;
   border-bottom: 1px solid $brand-gray-darker;
   
-  li {
+  li.search-result {
     
     border-top: 1px solid $brand-gray-darker;
     padding: 10px 0;
