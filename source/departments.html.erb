@@ -33,20 +33,15 @@ title: Welcome to your new intranet | nww.sth.nhs.uk
         </div>
         
         <div class="col-md-3 col-md-offset-1">
-          <form class="form-inline pull-right">
-            <label for="sortBy">Sort by</label>
-            <select name="careGroup" class="form-control">
-              <option>ASC (A-Z)</option>
-              <option>DESC (Z-A)</option>
-            </select>
-          </form> 
+          
         </div>
       </div>
     </div>
 
     <div class="col-md-3">
       <div class="main-sidebar navigation-sidebar page-search">
-        <form>
+        <form id="" class="search-filters">
+          <h4>Filter by department</h4>
           <label for="careGroup">Care Group</label>
               <select name="careGroup" class="form-control">
                 <option>All Care Groups</option>
@@ -57,9 +52,7 @@ title: Welcome to your new intranet | nww.sth.nhs.uk
                 <option>MSK</option>
                 <option>LEGION</option>
               </select>
-            </form>   
-        
-        <form>
+
           <label for="directorate">Directorate</label>
               <select name="directorate" class="form-control">
                 <option>All Directorates</option>
@@ -70,7 +63,59 @@ title: Welcome to your new intranet | nww.sth.nhs.uk
                 <option>Operating Services</option>
                 <option>Etc.</option>
               </select>
-            </form> 
+          
+          <h4>Filter by location</h4>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              Northern General
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              Royal Hallamshire
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              Charles Clifford
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              Weston Park
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              Jessop Wing
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              Community
+            </label>
+          </div>
+          
+          <h4>Filter by department type</h4>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              Medical/Clinical
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              Corporate/Administrative
+            </label>
+          </div>
+        </form> 
 
       </div>
     </div>
@@ -91,20 +136,56 @@ title: Welcome to your new intranet | nww.sth.nhs.uk
                 <ol class="search-results">
                   <li class="search-result">
                     <h2><a href="#">Department Title</a></h2>
-                    <small><a href="#">Care group / Corporate Service</a></small>
-                    <div class="dropdown">
-                      <button class="btn btn-default btn-xs dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                        Related services
-                        <span class="caret"></span>
-                      </button>
-                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                      </ul>
+                    One-liner about the department 
+                    <button class="btn btn-default btn-xs" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                      Related services
+                      <span class="caret"></span>
+                    </button>
+                    
+                    
+                    <div class="collapse" id="collapseExample">
+                      <div class="well">
+                        <h3><a href="#">Department Title</a></h3>
+                        <hr>
+                        <div class="row">
+                          <div class="col-md-4">
+                              <ol class="list-unstyled">
+                                <li><a href="#">sub department</a></li>
+                                <li><a href="#">sub department</a></li>
+                                <li><a href="#">sub department</a></li>
+                                <li><a href="#">sub department</a></li>
+                              </ol>
+                          </div>
+                          
+                          <div class="col-md-4">
+                              <ol class="list-unstyled">
+                                <li><a href="#">sub department</a></li>
+                                <li><a href="#">sub department</a></li>
+                                <li><a href="#">sub department</a></li>
+                                <li><a href="#">sub department</a></li>
+                              </ol>
+                          </div>
+                          
+                          <div class="col-md-4">
+                              <ol class="list-unstyled">
+                                <li><a href="#">sub department</a></li>
+                                <li><a href="#">sub department</a></li>
+                                <li><a href="#">sub department</a></li>
+                                <li><a href="#">sub department</a></li>
+                              </ol>
+                          </div>
+                        </div>
+                      </div>
                     </div>
+                    
+                    <small>
+                      <ul class="list-inline">
+                        <li><a href="#">Care group / Corporate Service</a></li>
+                        <li><a href="#">Directorate / Service</a></li>
+                        <li><a href="#">Location/s</a></li>
+                        <li><a href="#">Clinical / Corporate</a></li>
+                      </ul>
+                    </small>
                   </li>
                   
                   <li class="search-result">

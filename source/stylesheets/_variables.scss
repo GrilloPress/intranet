@@ -159,8 +159,8 @@ $table-border-color:            #ddd;
 $btn-font-weight:                normal;
 
 $btn-default-color:              $text-color;
-$btn-default-bg:                 #fff;
-$btn-default-border:             $brand-primary;
+$btn-default-bg:                 $brand-gray;
+$btn-default-border:             $brand-gray-darker;
 
 $btn-primary-color:              #fff;
 $btn-primary-bg:                 $brand-primary;
@@ -190,9 +190,9 @@ $btn-link-disabled-color:        $gray-light;
 //##
 
 //** `<input>` background color
-$input-bg:                       transparent;
+$input-bg:                       $brand-gray;
 //** `<input disabled>` background color
-$input-bg-disabled:              transparent;
+$input-bg-disabled:              darken( $brand-gray-darker, 10% );
 
 //** Text color for `<input>`s
 $input-color:                    $gray;
@@ -763,8 +763,8 @@ $thumbnail-caption-padding:   9px;
 //
 //##
 
-$well-bg:                     #ffffff;
-$well-border:                 transparent;
+$well-bg:                     $brand-gray;
+$well-border:                 $brand-gray-darker;
 
 
 //== Badges

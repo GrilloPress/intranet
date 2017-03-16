@@ -258,14 +258,7 @@ html.lt-ie9 .department-refine-search .btn#searchsubmit {
     width: 270px;
     margin: 0 auto;
 }
-.open .dropdown-toggle .caret {
-    border-top: none;
-    border-bottom: 4px solid #333;
-}
-.dropdown-toggle .caret {
-    border-top: 4px solid #333;
-    border-bottom: none;
-}
+
 .search-page .btn-group.open .btn.dropdown-toggle,
 .bootstrap-select > .btn:hover {
     background:transparent;
@@ -537,6 +530,20 @@ ol.search-results {
     h2 {
       
       margin: 5px 0;
+      font-size: $font-size-h2 - 8;
+      
+    }
+    
+    .well {
+      
+      margin-top: 1em;
+      
+      h3 {
+        
+        margin: 5px 0;
+        font-size: $font-size-h3 - 12;
+        
+      }
       
     }
     

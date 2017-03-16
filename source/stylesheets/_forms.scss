@@ -19,7 +19,6 @@ input[type="tel"],
 input[type="color"],
 .uneditable-input {
     padding:7px 6px;
-    font-family:'Overpass',sans-serif;
     font-weight: 400;
     font-size:15px;
     -webkit-border-radius:4px;
@@ -38,10 +37,7 @@ textarea:hover,
 input:hover {
     border-color: #009933;
 }
-select {
-    background:#FFF url(http://staffnet.wpengine.com/wp-content/themes/staffnet_strategic-ic/assets/img/arrow_down-dark.png) no-repeat right center;
-    min-width: 150px;
-}
+
 .radio,
 .checkbox {
     margin-bottom:0
@@ -73,13 +69,22 @@ select {
 }
 
 
-select {
+
+select.form-control {
   
-  background: #FFF url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASBAMAAACk4JNkAAAAKlBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKE86IAAAADXRSTlMAAQQFCgxXhq+3x97ie4qmqAAAAD5JREFUCFtjYCAS1N6FgAaGuVDWRgYrCONOAAPzWjDrKFAhWBAoxAARBAmBBcFCYEGIEFAQKsTAwJQCZRAFAKNZKuDBD1YJAAAAAElFTkSuQmCC) no-repeat right center;
+  background: $brand-grey url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAIBAMAAAA2IaO4AAAAHlBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC3KG9qAAAACXRSTlMABAcIEi6ytMBZALYlAAAAJElEQVQIHWMAA2FjYwWGzJkzpzBIzJwZwMDYOZWBgUE8gAEBAIuHBemYSa8PAAAAAElFTkSuQmCC) no-repeat 97% center;
   
 }
 
 
-
+form {
+  
+  h4 {
+    
+    font-size: $font-size-h4 - 8;
+    color: lighten( $gray, 30% );
+    
+  }
+}
 
    
