@@ -10,7 +10,6 @@ body {
   
 }
 
-
 // Branded headers
 //
 // Coloured backgrounds with white font
@@ -44,5 +43,13 @@ body {
 .page-header-large h1 {
   
   font-size: $font-size-h1 + 20;
+  
+}
+
+//HR
+
+hr {
+  
+  margin: 10px 0;
   
 }

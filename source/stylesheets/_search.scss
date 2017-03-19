@@ -505,6 +505,17 @@ html.lt-ie9 .department-refine-search .btn#searchsubmit {
     background:  url(http://staffnet.wpengine.com/wp-content/themes/staffnet_strategic-ic/assets/img/icon-wmv-sidebar.png) no-repeat center center;
 }
 
+// Search filter sidebar
+
+.search-filters {
+  
+  select.form-control {
+        
+    background: $brand-grey url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAIBAMAAAA2IaO4AAAAHlBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC3KG9qAAAACXRSTlMABAcIEi6ytMBZALYlAAAAJElEQVQIHWMAA2FjYwWGzJkzpzBIzJwZwMDYOZWBgUE8gAEBAIuHBemYSa8PAAAAAElFTkSuQmCC) no-repeat 97% center;
+  
+  }
+  
+}
 
 // NEW STYLES
 
@@ -537,13 +548,19 @@ ol.search-results {
     .well {
       
       margin-top: 1em;
+      padding-top: 10px; 
       
       h3 {
         
-        margin: 5px 0;
+        margin: 10px 0;
         font-size: $font-size-h3 - 12;
         
       }
+      
+    }
+    
+    .btn-related-services {
+      
       
     }
     
