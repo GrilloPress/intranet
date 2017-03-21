@@ -11,6 +11,8 @@ $gray:                   #0b0c0c;
 $gray-light:             #bbb;
 $gray-lighter:           lighten($gray-base, 93.5%); // #eee
 
+$grey:                 $gray; 
+
 $brand-primary:        #277691;
 $brand-primary-bright: #3CB4DD;
 $brand-primary-light:  #7EC5DD;

@@ -43,7 +43,11 @@ input:hover {
     margin-bottom:0
 }
     
-
+.dropdown-menu .divider {
+  
+  margin: 0;
+  
+}
 
 
 
@@ -79,7 +83,6 @@ select.form-control {
   background: #FFF url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAIBAMAAAA2IaO4AAAAHlBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC3KG9qAAAACXRSTlMABAcIEi6ytMBZALYlAAAAJElEQVQIHWMAA2FjYwWGzJkzpzBIzJwZwMDYOZWBgUE8gAEBAIuHBemYSa8PAAAAAElFTkSuQmCC) no-repeat 97% center;
   
 }
-
 
 form {
   

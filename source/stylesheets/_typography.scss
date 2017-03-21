@@ -44,6 +44,27 @@ body {
   
   font-size: $font-size-h1 + 20;
   
+  @media screen and (max-width: $screen-xs) {
+    
+    margin-top: 0px;
+  }
+  
+}
+
+// Quiet headers
+
+h2.quiet {
+  
+  font-size: 17px;
+  color: #909292;
+  
+}
+
+h3.quiet {
+  
+  font-size: 17px;
+  color: #909292;
+  
 }
 
 //HR
@@ -51,5 +72,15 @@ body {
 hr {
   
   margin: 10px 0;
+  
+}
+
+//
+
+.header-label {
+  
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 17px;
   
 }
