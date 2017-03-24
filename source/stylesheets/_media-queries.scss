@@ -150,9 +150,11 @@
         background-color: #212C36;
     }
     .navbar-default #staffnet-nav .dropdown-menu {
-        background: #53687D;
-        border: none;
-        border-radius: 0;
+      
+      background: #ffffff;
+      border: 5px solid #53687D;
+      border-radius: 0;
+      
     }
     .navbar.affix + .header-search {
         margin-top: 100px;

@@ -94,7 +94,40 @@
     
     margin: 5px 0;
     font-size: $font-size-h4 - 10px;
+    border-bottom: 1px solid;
+    line-height: 1.5;
     
   }
   
+  p, li , a {
+    
+    @media screen and (min-width: $screen-xs){
+    
+    font-size: 15px;
+    line-height: 1.3;
+      
+    }
+    
+    li {
+      
+      @media screen and (min-width: $screen-xs){
+      
+      margin-bottom: 8px;
+      
+      }
+    }
+    
+  }
+  
+}
+
+.sidebar-news {
+  
+  margin-top: 4em;
+  
+  @media screen and (max-width: $screen-xs){
+    
+    margin-top: 1em;
+    
+  }
 }
