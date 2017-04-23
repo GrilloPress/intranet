@@ -99,22 +99,7 @@ a.badge:focus,
 a.badge:hover {
     color: #ffffff;
 }
-.alert.browserwarning {
-    z-index:9999;
-    position:absolute;
-    top:0;
-}
-.alert {
-    background-color: #f2dede;
-    border-color: #ebccd1;
-    color: #a94442;
-    margin-top: 15px;
-}
-.alert-info {
-    background-color: #d9edf7;
-    border-color: #bce8f1;
-    color: #333333;
-}
+
 .pagination > .active > a, 
 .pagination > .active > a:focus,
 .pagination > .active > a:hover,
@@ -2031,4 +2016,10 @@ footer,
 .logo-NHS {
   
   margin-top: 6px;
+}
+
+.label-warning {
+  
+  color: $gray;
+  
 }

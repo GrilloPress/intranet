@@ -7,21 +7,21 @@
 $gray-base:              #000;
 $gray-darker:            lighten($gray-base, 13.5%); // #222
 $gray-dark:              #231f20;
-$gray:                   #0b0c0c;
+$gray:                   #231f20;
 $gray-light:             #bbb;
 $gray-lighter:           lighten($gray-base, 93.5%); // #eee
 
 $grey:                 $gray; 
 
 $brand-primary:        #277691;
-$brand-primary-bright: #3CB4DD;
-$brand-primary-light:  #7EC5DD;
+$brand-primary-bright: #6AAABF;
+$brand-primary-light:  #3F879F;
 $brand-primary-dark:   #164251;
 
 $brand-success:        #007e5a;
 $brand-info:           #005EB8;
-$brand-warning:        #6d1d61;
-$brand-danger:         #c50000;
+$brand-warning:        #FAE100;
+$brand-danger:         #9F1D05;
 
 $brand-gray:           #EBEBEB;
 $brand-gray-darker:    darken($brand-gray, 10%);
@@ -176,7 +176,7 @@ $btn-info-color:                 #fff;
 $btn-info-bg:                    $brand-info;
 $btn-info-border:                transparent;
 
-$btn-warning-color:              #fff;
+$btn-warning-color:              $gray;
 $btn-warning-bg:                 $brand-warning;
 $btn-warning-border:             transparent;
 
@@ -503,19 +503,19 @@ $jumbotron-font-size:            ceil(($font-size-base * 1.5));
 
 $state-success-text:             $brand-success;
 $state-success-bg:               #dff0d8;
-$state-success-border:           darken(adjust-hue($state-success-bg, -10), 5%);
+$state-success-border:           darken(adjust-hue($brand-success, -10), 5%);
 
-$state-info-text:                $brand-info;
-$state-info-bg:                  #e1bee7;
-$state-info-border:              darken(adjust-hue($state-info-bg, -10), 7%);
+$state-info-text:                $gray;
+$state-info-bg:                  #bfecfb;
+$state-info-border:              $brand-primary;
 
-$state-warning-text:             $brand-warning;
-$state-warning-bg:               #ffe0b2;
-$state-warning-border:           darken(adjust-hue($state-warning-bg, -10), 5%);
+$state-warning-text:             $gray;
+$state-warning-bg:               #fff7ac;
+$state-warning-border:           #a7a275;
 
 $state-danger-text:              $brand-danger;
-$state-danger-bg:                #f9bdbb;
-$state-danger-border:            darken(adjust-hue($state-danger-bg, -10), 5%);
+$state-danger-bg:                $brand-danger;
+$state-danger-border:            darken( $brand-danger, 10% );
 
 
 //== Tooltips
@@ -642,7 +642,7 @@ $alert-warning-text:          $state-warning-text;
 $alert-warning-border:        $state-warning-border;
 
 $alert-danger-bg:             $state-danger-bg;
-$alert-danger-text:           $state-danger-text;
+$alert-danger-text:           #FFF;
 $alert-danger-border:         $state-danger-border;
 
 
@@ -737,7 +737,7 @@ $panel-warning-text:          $state-warning-text;
 $panel-warning-border:        $state-warning-border;
 $panel-warning-heading-bg:    $state-warning-bg;
 
-$panel-danger-text:           $state-danger-text;
+$panel-danger-text:           #FFF;
 $panel-danger-border:         $state-danger-border;
 $panel-danger-heading-bg:     $state-danger-bg;
 

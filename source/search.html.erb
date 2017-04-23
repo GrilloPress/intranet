@@ -1,13 +1,14 @@
 ---
-title: Welcome to your new intranet | nww.sth.nhs.uk
+title: Search | nww.sth.nhs.uk
 ---
+
 <div class="breadcrumbs">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <ol class="breadcrumb">
           <li><a href="#">Home</a></li>
-          <li class="active">Directory</li>
+          <li class="active">Search</li>
         </ol>
       </div>
     </div>
@@ -19,20 +20,22 @@ title: Welcome to your new intranet | nww.sth.nhs.uk
     
     <div class="col-md-9 col-md-offset-3">
       <div class="page-header page-header-large">
-        <h1>Directory</h1>
+        <h1>Search</h1>
       </div>
       
       <div class="row">
         <div class="col-md-8">
-          
           <div class="btn-group btn-group-search" role="group" aria-label="...">
-            <button type="button" class="btn btn-sm btn-default active">All</button>
-            <button type="button" class="btn btn-sm btn-default">Departments</button>
-            <button type="button" class="btn btn-sm btn-default">Phone</button>
-          </div>
+              <button type="button" class="btn btn-default btn-wire active">All</button>
+              <button type="button" class="btn btn-default btn-wire">Departments</button>
+              <button type="button" class="btn btn-default btn-wire">Contacts</button>
+              <button type="button" class="btn btn-default btn-wire">Documents</button>
+              <button type="button" class="btn btn-default btn-wire">Groups</button>
+              <button type="button" class="btn btn-default btn-wire">News</button>
+            </div>
           
           <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search within directory...">
+            <input type="text" class="form-control" placeholder="Type to search...">
             <div class="input-group-addon">
               <i class="fa fa-search" aria-hidden="true"></i>
             </div>
@@ -40,6 +43,7 @@ title: Welcome to your new intranet | nww.sth.nhs.uk
         </div>
         
         <div class="col-md-3 col-md-offset-1">
+          
         </div>
       </div>
     </div>
@@ -47,7 +51,6 @@ title: Welcome to your new intranet | nww.sth.nhs.uk
     <div class="col-md-3">
       <div class="main-sidebar navigation-sidebar page-search">
         <form id="" class="search-filters">
-
           <h4>Filter by department</h4>
           <label for="careGroup">Care Group</label>
               <select name="careGroup" class="form-control selectpicker">
@@ -71,7 +74,7 @@ title: Welcome to your new intranet | nww.sth.nhs.uk
                 <option>Etc.</option>
               </select>
           
-                    <h4>Filter by alphanumerical</h4>
+          <h4>Filter by alphanumerical</h4>
 
           <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
             <div class="btn-group btn-block" role="group" aria-label="A-E">
@@ -115,41 +118,7 @@ title: Welcome to your new intranet | nww.sth.nhs.uk
             </div>
           </div>
           
-          <h4>Filter by staff role</h4>
-          <label for="staffGroup">Staff Group</label>
-              <select name="staffGroup" class="form-control selectpicker">
-                <option>All Staff Groups</option>
-                <option>Allied Health Professional</option>
-                <option>Administrative &amp; Clerical</option>
-                <option>Medical &amp; Dental</option>
-                <option>Nursing &amp; Midwifery</option>
-                <option>Etc.</option>
-              </select>
-          
-          <label for="staffGroup">Job title</label>
-              <select name="staffGroup" class="form-control selectpicker" data-live-search="true">
-                <option>All Job titles</option>
-                <option>Allied Health Professional</option>
-                <option>Administrative &amp; Clerical</option>
-                <option>Medical &amp; Dental</option>
-                <option>Nursing &amp; Midwifery</option>
-                <option>Etc.</option>
-              </select>
-
-          
           <h4>Filter by location</h4>
-          <label for="directorate">Ward</label>
-              <select name="directorate" class="form-control selectpicker" data-live-search="true">
-                <option>All Wards</option>
-                <option>L1</option>
-                <option>L2</option>
-                <option>Medicine</option>
-                <option>Pharmacy Services</option>
-                <option>Operating Services</option>
-                <option>Etc.</option>
-              </select>
-          
-          <h5 class="header-label">Building</h5>
           <div class="checkbox">
             <label>
               <input type="checkbox" value="">
@@ -186,6 +155,20 @@ title: Welcome to your new intranet | nww.sth.nhs.uk
               Community
             </label>
           </div>
+          
+          <h4>Filter by department type</h4>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              Medical/Clinical
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              Corporate/Administrative
+            </label>
+          </div>
         </form> 
 
       </div>
@@ -205,29 +188,16 @@ title: Welcome to your new intranet | nww.sth.nhs.uk
               <div class="search-container">
                 
                 <ol class="search-results">
-                  
                   <li class="search-result">
-                    <h2><a href="#">Person's name</a></h2>
+                    <strong>Department</strong>
+                    <h2><a href="#">Department Title</a></h2>
                     <div class="row">
                       <div class="col-md-9">
-                        Job title
-
-                          <ul class="list-inline">
-                            <li>011426 <strong>82222</strong></li>
-                            <li><a href="#">email@sth.nhs.uk</a></li>
-                          </ul>
-
-                          <small>
-                            <ul class="list-inline">
-                              <li><a href="#">Care group</a></li>
-                              <li><a href="#">Department</a></li>
-                              <li><a href="#">Location</a></li>
-                            </ul>
-                          </small>
+                        One-liner about the department 
                       </div>
                       <div class="col-md-3">
                         <button class="btn btn-default btn-xs btn-related-services" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                          View related
+                          View all pages
                           <span class="caret"></span>
                         </button>
                       </div>
@@ -235,113 +205,153 @@ title: Welcome to your new intranet | nww.sth.nhs.uk
 
                     <div class="collapse" id="collapseExample">
                       <div class="well">
-                        <h3><a href="#">Manager</a></h3>
+                        <h3><a href="#">Department Title</a></h3>
                         <hr>
                         <ol class="list-unstyled list-inline">
-                          <li><a href="#">Line Manager</a></li>
+                          <li><a href="#">sub page</a></li>
+                          <li><a href="#">sub page</a></li>
+                          <li><a href="#">sub page</a></li>
+                          <li><a href="#">sub page</a></li>
                         </ol>
                         
-                        <h3><a href="#">PA</a></h3>
+                        <h3><a href="#">Related services</a></h3>
                         <hr>
                         <ol class="list-unstyled list-inline">
-                          <li><a href="#">PA's name</a></li>
-                        </ol>
-                        
-                        <h3><a href="#">Direct reports</a></h3>
-                        <hr>
-                        <ol class="list-unstyled list-inline">
-                          <li><a href="#">Person A</a></li>
-                          <li><a href="#">Person B</a></li>
-                          <li><a href="#">Person C</a></li>
-                          <li><a href="#">Person D</a></li>
+                          <li><a href="#">related department</a></li>
+                          <li><a href="#">related department</a></li>
+                          <li><a href="#">related department</a></li>
+                          <li><a href="#">related department</a></li>
                         </ol>
                       </div>
                     </div>
+                    
+                    <small>
+                      <ul class="list-inline">
+                        <li><a href="#">Care group / Corporate Service</a></li>
+                        <li><a href="#">Directorate / Service</a></li>
+                        <li><a href="#">Location/s</a></li>
+                      </ul>
+                    </small>
                   </li>
                   
                   
                   <li class="search-result">
+                    <strong>Department</strong>
+                    <h2><a href="#">Communications</a></h2>
                     
                     <div class="row">
                       <div class="col-md-9">
-                        <h2><a href="#">Person's name</a></h2>
-                          Job title
-
-                          <ul class="list-inline">
-                            <li>011426 <strong>82222</strong></li>
-                            <li><a href="#">email@sth.nhs.uk</a></li>
-                          </ul>
-
-                          <small>
-                            <ul class="list-inline">
-                              <li><a href="#">Care group</a></li>
-                              <li><a href="#">Department</a></li>
-                              <li><a href="#">Location</a></li>
-                            </ul>
-                          </small>
+                        <p>Internal and external communications department. Responsible for all Trust marketing materials and web design.</p>
                       </div>
-                      
                       <div class="col-md-3">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Related <span class="caret"></span>
-                          </button>
-                          <ul class="dropdown-menu">
-                            <li><a href="#">Line Manager</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Colleague</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Related person...</a></li>
-                          </ul>
-                        </div>
+                        <button class="btn btn-default btn-xs btn-related-services" type="button" data-toggle="collapse" data-target="#collapseComms" aria-expanded="false" aria-controls="collapseExample">
+                          View all pages
+                          <span class="caret"></span>
+                        </button>
                       </div>
                     </div>
+                    
+                    <div class="collapse" id="collapseComms">
+                      <div class="well">
+                        <h3><a href="#">Communications</a></h3>
+                        <hr>
+                        <ol class="list-unstyled list-inline">
+                          <li><a href="#">Emails</a></li>
+                          <li><a href="#">Dealing with the media</a></li>
+                          <li><a href="#">PR &amp; Marketing</a></li>
+                          <li><a href="#">Poster printing</a></li>
+                          <li><a href="#">Social Media</a></li>
+                          <li><a href="#">Websites</a></li>
+                          <li><a href="#">Brand Guidelines</a></li>
+                        </ol>
+                        
+                        <h3><a href="#">Related services</a></h3>
+                        <hr>
+                        <ol class="list-unstyled list-inline">
+                          <li><a href="#">Print Services (Xerox)</a></li>
+                          <li><a href="#">Medical Photography and Videography</a></li>
+                          <li><a href="#">Telecommunications</a></li>
+                          <li><a href="#">Intranet</a></li>
+                        </ol>
+                          
+                      </div>
+                    </div>
+                    
+                    <small>
+                      <ul class="list-inline">
+                        <li><a href="#">Corporate Services</a></li>
+                        <li><a href="#">Chief Executive's Office</a></li>
+                        <li><a href="#">All Locations</a></li>
+                      </ul>
+                    </small>
+                  </li>
+                  
+                   <li class="search-result">
+                     <strong>Group</strong>
+
+                      <h2><a href="#">Intranet User Group</a></h2>
+                      <div class="row">
+                        <div class="col-md-9">
+                          Learn about all future developments for the Intranet and help make the product better
+                        </div>
+                        <div class="col-md-3">
+                          <button class="btn btn-default btn-xs" type="submit">Leave group</button>
+                        </div>
+                      </div>
+
+                      <small>
+                        <ul class="list-inline">
+                          <li><a href="#">Public Group</a></li>
+                          <li><a href="#">Chief Executive</a></li>
+                          <li><a href="#">Communications</a></li>
+                          <li><a href="#">All Locations</a></li>
+                        </ul>
+                      </small>
                   </li>
                   
                   <li class="search-result">
-                    
-                    <div class="row">
-                      <div class="col-md-9">
-                        <h2><a href="#">Andrew Duckworth</a></h2>
-                          Online &amp; Social Media Specialist
-
-                          <ul class="list-inline">
-                            <li>011426 <strong>82222</strong></li>
-                            <li><a href="#">andrew.duckworth@sth.nhs.uk</a></li>
-                          </ul>
-
-                          <small>
-                            <ul class="list-inline">
-                              <li><a href="#">Corporate Services</a></li>
-                              <li><a href="#">Communications</a></li>
-                              <li><a href="#">Royal Hallamshire</a></li>
-                            </ul>
-                          </small>
-                      </div>
-                      
-                      <div class="col-md-3">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Related <span class="caret"></span>
-                          </button>
-                          <ul class="dropdown-menu">
-                            <li><a href="#">Julie Phelan</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Laura Kirby</a></li>
-                            <li><a href="#">Emma Kirby</a></li>
-                            <li><a href="#">John Birch</a></li>
-                            <li><a href="#">Claudia Blake</a></li>
-                            <li><a href="#">Katy Davison</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Sharon Thornton-Hurd</a></li>
-                          </ul>
+                    <strong>Group</strong>
+                        <h2><a href="#">Group Title</a></h2>
+                        <div class="row">
+                          <div class="col-md-9">
+                            One-liner about the group
+                          </div>
+                          <div class="col-md-3">
+                            <button class="btn btn-default btn-xs" type="submit">Request membership</button>
+                          </div>
                         </div>
-                      </div>
-                    </div>
+
+                        <small>
+                          <ul class="list-inline">
+                            <li><a href="#">Public / Private</a></li>
+                            <li><a href="#">Care group / Corporate Service</a></li>
+                            <li><a href="#">Directorate / Service</a></li>
+                            <li><a href="#">Location/s</a></li>
+                          </ul>
+                        </small>
                   </li>
                   
-                  
-                  
+                  <li class="search-result">
+                    <strong>Group</strong>
+                        <h2><a href="#">Group Title</a></h2>
+                        <div class="row">
+                          <div class="col-md-9">
+                            One-liner about the group
+                          </div>
+                          <div class="col-md-3">
+                            <button class="btn btn-default btn-xs" type="submit">Membership pending</button>
+                          </div>
+                        </div>
+
+                        <small>
+                          <ul class="list-inline">
+                            <li><a href="#">Public / Private</a></li>
+                            <li><a href="#">Care group / Corporate Service</a></li>
+                            <li><a href="#">Directorate / Service</a></li>
+                            <li><a href="#">Location/s</a></li>
+                          </ul>
+                        </small>
+                  </li>
                   
                   
                   
